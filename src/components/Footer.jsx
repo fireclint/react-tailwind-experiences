@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='w-full mt-24 bg-gray-900 text-gray-300 py-2 px-2'>
       <div className='max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8 px-4'>
         <div>
-          <h6 className='font-bold uppercare pt-2'>Solutions</h6>
+          <h6 className='font-bold uppercase pt-2'>Solutions</h6>
           <ul>
             <li className='py-1'>Travel</li>
             <li className='py-1'>Booking</li>
@@ -17,7 +17,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className='font-bold uppercare pt-2'>Support</h6>
+          <h6 className='font-bold uppercase pt-2'>Support</h6>
           <ul>
             <li className='py-1'>Pricing</li>
             <li className='py-1'>Documentation</li>
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className='font-bold uppercare pt-2'>Company</h6>
+          <h6 className='font-bold uppercase pt-2'>Company</h6>
           <ul>
             <li className='py-1'>About</li>
             <li className='py-1'>Blog</li>
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className='font-bold uppercare pt-2'>Legal</h6>
+          <h6 className='font-bold uppercase pt-2'>Legal</h6>
           <ul>
             <li className='py-1'>Claims</li>
             <li className='py-1'>Privacy</li>
