@@ -1,22 +1,24 @@
-import Navbar from './components/Navbar.jsx';
-import Hero from './components/Hero.jsx';
-import Offers from './components/Offers.jsx';
-import Plan from './components/Plan.jsx';
-import Rooms from './components/Rooms.jsx';
-import ImageSlider from './components/ImageSlider.jsx'
-import Footer from './components/Footer.jsx'
+import React from 'react'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home';
+import Destination from './pages/Destination';
+import Reservation from './pages/Reservation';
+import Amenities from './pages/Amenities';
+import Room from './pages/Room';
 
 function App() {
   return (
+    <BrowserRouter>
     <div>
-      <Navbar />
-      <Hero />
-      <Offers />
-      <Plan />
-      <Rooms />
-      <ImageSlider />
-      <Footer />
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/destinations" element={<Destination />} />
+      <Route path="/reservations" element={<Reservation />} />
+      <Route path="/amenities" element={<Amenities />} />
+      <Route path="/rooms" element={<Room />} />
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 
